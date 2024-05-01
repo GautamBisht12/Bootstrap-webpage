@@ -1,0 +1,45 @@
+@media (max-width: 991px) {
+  .bg-main {
+    height: 140vh;
+    position: relative;
+  }
+  .hero-section .container {
+    padding-top: 1rem;
+  }
+  .container .row .hero-h1 {
+    font-size: 3rem;
+    gap: 4rem;
+  }
+  .container .row .hero-h1 .btn-div {
+    width: 100%;
+    padding-top: 0rem;
+  }
+
+  .more-info-sec .container .row .img-section {
+    text-align: center;
+  }
+  .more-info-sec .container .row .phone-h1 {
+    align-items: center;
+  }
+}
+@media (max-width: 410px) {
+  .hero-section .container {
+    margin-top: 2rem;
+  }
+  .container .row .hero-h1 h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .container .row .hero-h1 .btn-div {
+    width: 100%;
+  }
+  .video-div {
+    width: 100%;
+    padding: 28px 0px;
+  }
+  .video-div .hero-video--section {
+    width: 90%;
+  }
+}
